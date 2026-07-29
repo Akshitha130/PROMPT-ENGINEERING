@@ -900,7 +900,7 @@ Processes images, audio waveforms, and text directly through a unified, single-t
 
 
 
-**3.  Generative AI architecture  and its applications.**
+# 3.Generative AI architecture  and its applications.
 
 
 
