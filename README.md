@@ -2142,3 +2142,233 @@ High-performing 3B–14B models distilled from frontier systems allow edge execu
 
 
 Rather than scaling parameters to memorize facts, systems connect models directly to dynamic external vector databases, lowering hallucination rates and parameter requirements.
+
+
+
+
+
+
+
+
+
+# 5.Explain about LLM and how it is build.
+
+
+
+
+# PERPLEXITY 
+
+
+
+
+
+# INTRODUCTION
+
+
+
+
+
+An LLM, or large language model, is an AI model trained to understand and generate human language by learning patterns from very large amounts of text data. It powers systems like chatbots, writing assistants, and code generators by predicting the next token or word in a sequence.
+
+
+
+
+
+
+
+# HOW IT IS BUILT
+
+
+
+
+
+
+An LLM is usually built in stages:
+
+
+
+
+**Data collection and cleaning**
+
+
+
+Developers gather huge text datasets from sources like books, articles, websites, and conversations, then filter out bad or duplicate data.
+
+
+
+
+
+**Tokenization**
+
+
+
+
+
+Text is broken into smaller pieces called tokens so the model can process it as numbers.
+
+
+
+
+**Model architecture**
+
+
+
+Most modern LLMs use the Transformer neural network, which uses attention to understand how words relate to each other in context.
+
+
+
+
+
+**Pre training**
+
+
+
+The model learns by predicting the next token over and over on massive datasets, adjusting millions or billions of parameters to improve its guesses.
+
+
+
+
+
+**Fine-tuning**
+
+
+
+
+
+The pretrained model is trained further on smaller, task-specific or instruction-based datasets so it can chat, follow instructions, or specialize in a domain.
+
+
+
+
+
+**Alignment and evaluation**
+
+
+
+
+Developers test the model for accuracy, safety, and usefulness, and may use techniques like supervised fine-tuning and reinforcement learning from human feedback to shape its behavior.
+
+
+
+
+
+
+
+
+# CORE BASICS 
+
+
+
+
+
+
+
+ • Language models and next-word prediction.
+
+
+
+
+ • Tokens, tokenization, and context windows.
+ 
+
+
+ • Embeddings and word vectors.
+
+
+
+
+
+
+# MODEL ARCHITECTURE 
+
+
+
+
+
+ • Transformer architecture.
+
+ • Attention, self-attention, and multi-head attention.
+
+ • Encoder-only vs decoder-only models.
+
+
+
+
+
+
+
+# WORKING PROCESS
+
+
+
+
+
+
+When a user types a prompt, the LLM does not think like a human. Instead, it looks at the input text and predicts what token should come next based on patterns it learned during training. It keeps generating token by token until the response is complete. This process is called inference. The model is very good at producing fluent and context-aware text, but it is still based on statistical patterns rather than true understanding, so it can sometimes make mistakes or give information that sounds right but is actually wrong.
+
+
+
+
+
+
+
+
+# APPLICATIONS
+
+
+
+
+
+
+
+LLMs have many practical uses in everyday life and business. They are used in chatbots for customer support, in writing tools for generating emails and articles, in translation systems for converting text from one language to another, and in coding assistants for helping developers write and debug programs. They are also useful in education, research, healthcare, and productivity tools. Because they can handle many language tasks in one system, they save time and reduce manual effort.
+
+
+
+
+
+
+
+# ADVANTAGES 
+
+
+
+
+
+One major advantage of LLMs is their flexibility. A single model can perform many different tasks without needing to be redesigned from scratch each time. They are also fast, scalable, and able to work with large amounts of information. Another benefit is that they can make advanced language technology available to more people through simple chat-based interfaces. This makes them useful for students, professionals, and businesses alike.
+
+
+
+
+
+
+
+
+
+
+# LIMITATIONS 
+
+
+
+
+
+
+Even though LLMs are powerful, they are not perfect. They can sometimes generate false or biased information, and they may sound confident even when they are wrong. They also depend heavily on the quality of the data they were trained on, so poor data can lead to poor results. In addition, they have a limited context window, which means they can only “see” a certain amount of text at one time. Because of these limitations, their answers should be checked carefully, especially in important situations.
+
+
+
+
+
+
+
+
+# GEMINI
+
+
+
+
+# INTRODUCTION 
+
+
+
+
